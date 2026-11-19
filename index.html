@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulseCount - Smart Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <h1 class="main-heading">PulseCount</h1>
+    <div class="main-container">
+
+        <div class="counting-number">
+            <p id="show">0</p>
+        </div>
+        <div class="add-sub-btn">
+            <button class="dec" onclick="decrement()">-</button> <button class="inc" onclick="increment()">+</button>
+        </div>
+        <div class="buttons">
+            <button class="sub" onclick="subs()">-5</button> <button class="reset" onclick="resets()"><i
+                    class="fa-solid fa-arrows-rotate"></i></button>
+            <button class="add" onclick="adds()">+5</button>
+        </div>
+
+    </div>
+
+
+
+    <footer style="width:100%;padding:18px 20px;text-align:center;font-size:13px;color:inherit;position:fixed;bottom:0;left:0">Copyright © 2026 All rights reserved | This template is made with <a href="https://github.com/shahrozkhan-tech" target="_blank" rel="noopener" style="color:inherit">shahroz khan</a></footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
